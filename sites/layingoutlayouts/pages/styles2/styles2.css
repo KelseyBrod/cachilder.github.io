@@ -1,3 +1,7 @@
+/* you can have all the styles sheets in one styles folder, no need to create different style folders! */
+*{
+  box-sizing: border-box;
+}
 
 a:link {
   color:black;
@@ -31,7 +35,7 @@ a:hover {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 40px;
 }
-#firstbox:hover {
+#firstbox, #firstbox:hover {
     background-color: lightgrey;
     padding: 20px;
     margin: 5px;
