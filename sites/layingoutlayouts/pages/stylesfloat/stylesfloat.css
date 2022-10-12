@@ -1,0 +1,64 @@
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:blue;
+}
+#headerlinks {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+#flexboxlinkheader {
+  padding-left:20px;
+}
+#floatlink{
+  padding:10px;
+}
+#leftpointer {
+  float: left;
+  padding: 40px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+#rightpointer {
+  float: right;
+  padding: 20px;
+}
+@media only screen and (min-width: 301px) and (max-width: 850px)
+{
+#header {
+  height: auto;
+  width: auto;
+}
+#leftpointer {
+  height: auto;
+  width: auto;
+}
+#rightpointer {
+  height: auto;
+  width: auto;
+}
+.flex-container {
+  flex-direction: column;
+  align-items: center;
+}
+}
